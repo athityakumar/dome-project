@@ -34,7 +34,7 @@ def bruteforce
             get_all_steps(D_RANGE,D_STEP).each do |d| # Loop through diameter
                 p_cr = (3.14*3.14*3.14*e*d*d*d*d)/(64*l*l) # Apply formula for critical load
                 p = p_cr / FACTOR_OF_SAFETY # Calculate allowable load from critical load
-                v = 3.14 * d * d * l /4
+                v = 3.14 * d * d * l /4 * 1000000000
                 m = rho * v
                 obj = p / v # Objective function to be maximized
                 data.push({e: e,l: l,d: d,p: p,obj: obj})
