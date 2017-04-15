@@ -4,7 +4,7 @@ This is a part of the group project that was done for the course Design Of Machi
 
 ### About the codebase
 
-The `watts.rb` is a Ruby script that is used to find out the optimal configuration of a Watts Arm, by traversing through all possible combinations of the Arm dimensions and materials - to maximize the allowable load (P) while also minimizing the volume (V). Hence, the term `P/V` has been maximized to find the optimal solution.
+The [`watts.rb`](https://github.com/athityakumar/dome-project/blob/master/watts.rb) is a Ruby script that is used to find out the optimal configuration of a Watts Arm, by traversing through all possible combinations of the Arm dimensions and materials - to maximize the allowable load `(P)` while also minimizing the volume `(V)`. Hence, the term `P/V` has been maximized to find the optimal solution.
 
 All the traversed combinations, and the optimal solutions are written into `.csv` files, for even a layman to have at the data easily.
 
